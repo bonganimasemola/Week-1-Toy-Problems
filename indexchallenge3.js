@@ -3,10 +3,10 @@
 function calculateNetSalary(basicSalary, benefits) {
     // Constants for tax rates and deduction rates : PAYE rates in effect from 1 July 2023, NHIF rates in effect from 1 April 2015
     const taxRates = [
-        { min: 0, max: 24000, rate: 0.10 },
-        { min: 24001, max: 32333, rate: 0.25 },
-        { min: 32334, max: 500000, rate: 0.30 },
-        { min: 500001, max: 800000, rate: 0.325 }, ]
+        { min: 0, max: 24000, taxRaterate: 0.10 },
+        { min: 24001, max: 32333, taxRaterate: 0.25 },
+        { min: 32334, max: 500000, taxRaterate: 0.30 },
+        { min: 500001, max: 800000, taxRaterate: 0.325 }, ]
     const nhifRate = 0.015; // 1.5% NHIF rate - placeholder rate 
     const nssfRate = 0.06; // 6% NSSF rate - 6% of pensionable pay 
 
@@ -26,3 +26,5 @@ function calculateNetSalary(basicSalary, benefits) {
         netSalary: netSalary
     };
     }
+
+     

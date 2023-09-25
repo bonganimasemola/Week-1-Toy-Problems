@@ -18,3 +18,5 @@ function studentMarks (score) {
 }
 
 
+console.log(studentMarks(56))
+

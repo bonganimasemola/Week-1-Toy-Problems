@@ -17,4 +17,4 @@ function speedDetector(speed) {
             return (`Points: ${demeritPoints}`);
         }
       }
-    
+    console.log(speedDetector(75))
