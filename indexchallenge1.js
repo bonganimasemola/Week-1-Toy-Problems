@@ -1,4 +1,4 @@
-Solution: Challenge 1: Student Grade Generator (Toy Problem)
+/* Solution: Challenge 1: Student Grade Generator (Toy Problem) */
 
 
 function studentMarks (score) {

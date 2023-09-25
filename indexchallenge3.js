@@ -1,4 +1,4 @@
-Solution: Challenge 3: Net Salary Calculator (Toy Problem)
+/* Solution: Challenge 3: Net Salary Calculator (Toy Problem) */
 
 function calculateNetSalary(basicSalary, benefits) {
     // Constants for tax rates and deduction rates : PAYE rates in effect from 1 July 2023, NHIF rates in effect from 1 April 2015

@@ -1,4 +1,4 @@
-Solution: Challenge 2: Speed Detector (Toy Problem)
+/* Solution: Challenge 2: Speed Detector (Toy Problem) */
 
 function speedDetector(speed) {
 
@@ -7,13 +7,13 @@ function speedDetector(speed) {
 
     if (speed <= speedLimit) {
         return ("Ok"); 
-    } else {
+    } else { 
         demeritPoints = Math.floor((speed - speedLimit) / 5);
-        
-        if (demeritPoints > 12) {
+          }
+        if (demeritPoints > 12) 
             return ("License suspended");
-        } else {
+         else {
             return (`Points: ${demeritPoints}`);
         }
       }
-    }
+    
