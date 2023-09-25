@@ -1,5 +1,6 @@
 Solution: Challenge 1: Student Grade Generator (Toy Problem)
 
+
 function studentMarks (score) {
     if (score > 80) {
         return "A";
